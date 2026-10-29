@@ -1,9 +1,0 @@
-apiVersion: source.toolkit.fluxcd.io/v1
-kind: HelmRepository
-metadata:
-  name: redis
-  namespace: redis
-spec:
-  interval: 5m0s
-  url: https://helm.redis.io
-
